@@ -1,13 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
+
+body {
+    text-align: center;
+    background-color: #383a59;
+}
+
+
 h1 {
     color: #50fa7b;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Fira Code';
 }
 
 .title-1 {
     color: #bd93f9;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Fira Code';
 }
 
+.text-bio {
+    color: #f8f8f2;
+    font-family: "Fira Code";
+    font-size: 1rem;
+    font-weight: 100;
+
+}
