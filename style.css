@@ -4,35 +4,37 @@
 body {
   background-color: black;
   text-align: center;
+  font-family: "Fira Code";
 }
 
 h1 {
-  background: linear-gradient(to right, rgb(132, 255, 61), rgb(46, 171, 255));
+  background: linear-gradient(to right,rgb(132, 255, 61),rgb(46, 171, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-family: "Fira Code";
   font-size: 4rem;
-  white-space: ;
 }
 
 .title-1 {
   color: #bd93f9;
-  font-family: "Fira Code";
 }
 
 .text-bio {
   color: #f8f8f2;
-  font-family: "Fira Code";
   font-size: 1rem;
   font-weight: 100;
   line-height: 1.5rem;
+}
 
-  }
+ul {
+  color: #ffb86c;
+  font-size: 1.5rem;
+}
 
-  ul {
-    color: #f8f8f2;
-    font-family: "Fira Code";
-    font-size: 1.5rem;
+li {
+  display: contents;
+}
 
-  }
+a {
+  color: #50fa7b;
+}
