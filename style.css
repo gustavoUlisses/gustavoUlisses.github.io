@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
 
 body {
-  background-color: black;
+  background-color: #282a36;
   text-align: center;
   font-family: "Fira Code";
 }
@@ -12,7 +12,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-size: 4rem;
+  font-size: 2.7rem;
 }
 
 h4 {
@@ -30,14 +30,22 @@ h4 {
 }
 
 ul {
-  color: #8be9fd;
-  font-size: 1.2rem;
+
 }
 
 li {
-  display: contents;
-  }
+  color: #8be9fd;
+  font-size: 1.2rem;
+  list-style: circle;
+}
 
 a {
-  color: #50fa7b;
+  color: #ffb86c;
+}
+
+.content {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
