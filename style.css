@@ -3,7 +3,6 @@
 
 body {
   background-color: #282a36;
-  text-align: center;
   font-family: "Fira Code";
 }
 
@@ -30,7 +29,7 @@ h4 {
 }
 
 ul {
-  position: relative;
+
 }
 
 li {
@@ -43,9 +42,19 @@ a {
   color: #ffb86c;
 }
 
-.content {
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+#learning {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#learning-left {
+  float: left;
+
+}
+
+#learning-right {
+  float: right;
+
 }
